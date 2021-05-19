@@ -55,7 +55,7 @@ class SearchPincode extends React.Component {
             onChangeText={this.handlePinCode}
           />
           <DatePicker
-            style={{width: 250}}
+            style={styles.datePick}
             date={this.state.date}
             mode="date"
             placeholder="Select Date"

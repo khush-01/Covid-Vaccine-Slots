@@ -10,7 +10,7 @@ class Home extends React.Component {
           <Text style={styles.button}>Search by Pincode</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.homeButton} onPress={() => this.props.navigation.navigate('state')}>
-          <Text style={styles.button}>Search by District</Text>
+          <Text style={styles.button}>Search by State/District</Text>
         </TouchableOpacity>
       </View>
     )

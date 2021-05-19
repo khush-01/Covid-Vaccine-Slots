@@ -20,15 +20,19 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 20,
   },
-    inputField: {
+  inputField: {
     borderColor: 'black',
     borderRadius: 25,
     borderWidth: 1,
     fontSize: 20,
-    marginVertical: 30,
+    marginTop: 30,
     padding: 10,
     textAlign: 'center',
     width: deviceWidth * 0.7,
+  },
+  datePick: {
+    marginTop: 30, 
+    width: 250
   },
   card: {
     backgroundColor: 'white',
@@ -36,6 +40,10 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     width: 450,
+  },
+  dropdown: {
+    marginTop: 20,
+    width: deviceWidth * 0.7,
   },
   resultPage: {
     alignItems: 'center',
