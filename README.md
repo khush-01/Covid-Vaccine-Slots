@@ -7,3 +7,4 @@ This is react-native app to check vaccine availability
  **Things I learned**
 - Successfully applied DropDownPicker using react-native-dropdown-picker
 - Successfully applied DatePicker using react-native-datepicker
+- Successfully implemented API fetch
